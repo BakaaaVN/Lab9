@@ -81,5 +81,4 @@ public class DatabaseHandler extends SQLiteOpenHelper {
         db.delete(TABLE_NAME, KEY_ID + "= ?", new String[] {String.valueOf(productID)});
         db.close();
     }
-
 }
